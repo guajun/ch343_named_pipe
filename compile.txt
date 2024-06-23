@@ -1,0 +1,7 @@
+./close_fifo 
+g++ -o manager manager.cpp
+gcc -o read read.c
+
+
+./close_fifo 
+sudo ./manager
